@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&display=swap');
+
+
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+#title{
+    font-size: 20px;
+}
+#description{
+    font-size: 25px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#container{
+    background: rgba(0, 0, 0, 0.6);
+    width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6em;
+}
+
+#name{
+    width: 860px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#email{
+    width: 860px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#number{
+    width: 860px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#dropdown{
+    width: 890px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 0.8em;
+
+}
+#messagebox{
+    width: 860px;
+    padding: 15px;
+    border-radius: 10px;
+    height: 110px;
+    border: none;
+}
+#submit{
+    width: 890px;
+    padding: 20px;
+    margin-top: 2%;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(72, 179, 72);
+    cursor: pointer;
+}
